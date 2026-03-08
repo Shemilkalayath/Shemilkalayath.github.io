@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel — Mohamed Shemil</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-name">Mohamed Shemil</a>
+            <div class="nav-links" id="navLinks">
+                <a href="index.html"    class="nav-link">About</a>
+                <a href="research.html" class="nav-link">Research</a>
+                <a href="writing.html"  class="nav-link">Writing</a>
+                <a href="travel.html"   class="nav-link active">Travel</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+        </div>
+    </nav>
+
+    <main>
+
+        <div class="page-header">
+            <h1 class="page-title">Travel</h1>
+            <p class="page-subtitle">Places I have been, and what I found there</p>
+        </div>
+
+        <p class="travel-intro">
+            These are photoblogs from places I've travelled to — part diary, part photo album.
+            I tend to wander into markets, old quarters, and roadside tea stalls wherever I go.
+        </p>
+
+        <div class="travel-grid">
+
+            <!--
+                HOW TO ADD A NEW TRAVEL ENTRY:
+                1. Copy one of the <article> blocks below.
+                2. Paste it at the top of the grid.
+                3. Update the location, date, title, excerpt, and href link.
+                4. Replace the image placeholder with an actual <img> tag when you have a photo.
+                5. Create the travel entry file in the travel/ folder.
+            -->
+
+            <article class="travel-card">
+                <!--
+                    Replace the div below with:
+                    <img src="../images/istanbul-cover.jpg" alt="Istanbul" class="travel-card-image">
+                -->
+                <div class="travel-card-image">Cover photo</div>
+                <div class="travel-card-body">
+                    <div class="travel-card-meta">Istanbul, Turkey &middot; January 2025</div>
+                    <h2 class="travel-card-title">
+                        <a href="travel/istanbul.html">Between Two Continents</a>
+                    </h2>
+                    <p class="travel-card-excerpt">
+                        A week in Istanbul — wandering the bazaars, eating too much börek,
+                        and thinking about what it means to be a city straddling two worlds.
+                    </p>
+                    <a href="travel/istanbul.html" class="read-more">Read &rarr;</a>
+                </div>
+            </article>
+
+            <article class="travel-card">
+                <div class="travel-card-image">Cover photo</div>
+                <div class="travel-card-body">
+                    <div class="travel-card-meta">Kerala, India &middot; August 2024</div>
+                    <h2 class="travel-card-title">
+                        <a href="travel/kerala.html">Monsoon Kerala</a>
+                    </h2>
+                    <p class="travel-card-excerpt">
+                        Going home in the monsoon. Rain on paddy fields, fish curry
+                        every morning, and the particular smell of wet earth after a
+                        summer away.
+                    </p>
+                    <a href="travel/kerala.html" class="read-more">Read &rarr;</a>
+                </div>
+            </article>
+
+            <article class="travel-card">
+                <div class="travel-card-image">Cover photo</div>
+                <div class="travel-card-body">
+                    <div class="travel-card-meta">Marrakech, Morocco &middot; April 2024</div>
+                    <h2 class="travel-card-title">
+                        <a href="travel/marrakech.html">The Markets of Marrakech</a>
+                    </h2>
+                    <p class="travel-card-excerpt">
+                        The medina as a living archive. Souk after souk, the city
+                        organised by trade and craft — a political economist's
+                        playground.
+                    </p>
+                    <a href="travel/marrakech.html" class="read-more">Read &rarr;</a>
+                </div>
+            </article>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-links">
+                <a href="mailto:your.email@university.edu">Email</a>
+                <a href="#">Google Scholar</a>
+                <a href="#">Twitter / X</a>
+                <a href="#">CV</a>
+            </div>
+            <p>© 2025 Mohamed Shemil</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
